@@ -5,6 +5,19 @@
 
 /* Actividad 1: cabecera y hero */
 
+.cabecera {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu ul { display: flex; gap: 1.5rem; }
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 /* Actividad 2: tarjetas */
 
