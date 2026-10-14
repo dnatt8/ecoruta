@@ -47,5 +47,11 @@
 
 /* Actividad 4: galería */
 
+.galeria { display: flex; flex-wrap: wrap; gap: 1rem; }
+.galeria img {
+    flex: 0 0 calc((100% - 2 * 1rem) / 3);   /* (ancho − 2 huecos) ÷ 3 columnas */
+    min-width: 0;   /* evita que la imagen imponga su ancho natural (400 px) */
+}
+
 
 /* Actividad 5: adaptación a pantallas pequeñas */
