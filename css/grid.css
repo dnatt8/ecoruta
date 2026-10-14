@@ -54,5 +54,11 @@
 
 /* Actividad 4: galería */
 
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
 
 /* Actividad 5: adaptación a pantallas pequeñas */
