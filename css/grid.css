@@ -35,6 +35,22 @@
 
 /* Actividad 3: estructura y pie */
 
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr 260px;
+    grid-template-areas: "principal lateral";
+    gap: 2rem;
+    align-items: start;
+}
+.principal { grid-area: principal; min-width: 0; }
+.lateral { grid-area: lateral; }
+
+.pie-columnas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
 
 /* Actividad 4: galería */
 
