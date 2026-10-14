@@ -21,6 +21,17 @@
 
 /* Actividad 2: tarjetas */
 
+.tarjetas {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     gap: 1.5rem;
+}
+
+.tarjeta {
+     display: grid;
+     grid-template-rows: auto 1fr auto;
+}
+
 
 /* Actividad 3: estructura y pie */
 
