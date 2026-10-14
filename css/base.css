@@ -1,0 +1,72 @@
+/* =========================================================
+   base.css — Estilos visuales (colores, tipografía, espaciado)
+   NO contiene ninguna regla de distribución (layout).
+   ========================================================= */
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  line-height: 1.5;
+  color: #1f2933;
+  background: #f5f7f2;
+}
+img { display: block; max-width: 100%; }
+h2 { color: #1b4332; }
+
+/* Cabecera */
+.cabecera { min-height: 64px; padding: 0 2rem; background: #1b4332; }
+.logo { color: #fff; font-size: 1.5rem; font-weight: 700; text-decoration: none; }
+.menu ul { list-style: none; margin: 0; padding: 0; }
+.menu a { color: #d8f3dc; text-decoration: none; }
+
+/* Hero */
+.hero {
+  min-height: 320px;
+  padding: 2rem 1rem;
+  background: #2d6a4f;
+  color: #fff;
+  text-align: center;
+}
+.hero-contenido { width: 90%; max-width: 600px; }
+.hero h1 { margin: 0 0 .5rem; font-size: 2.5rem; }
+.boton {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: .75rem 1.5rem;
+  border-radius: 4px;
+  background: #95d5b2;
+  color: #1b4332;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* Contenedor, contenido principal y barra lateral */
+.contenedor { max-width: 1100px; margin: 0 auto; padding: 2rem 1rem; }
+.lateral { padding: 1rem; border-radius: 8px; background: #fff; }
+
+/* Tarjetas */
+.tarjetas { margin-bottom: 2rem; }
+.tarjeta { padding: 1rem; border-radius: 8px; background: #fff; }
+.tarjeta h3 { margin: 0 0 .5rem; }
+.tarjeta p { margin: 0 0 1rem; }
+.enlace { color: #2d6a4f; font-weight: 600; }
+
+/* Galería */
+.galeria img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 6px;
+  background: #b7e4c7;
+}
+
+/* Pie de página */
+.pie { padding: 2rem; background: #1b4332; color: #d8f3dc; }
+.pie-columnas { max-width: 1100px; margin: 0 auto; }
+.columna h4 { margin: 0 0 .5rem; color: #fff; }
+.copy {
+  margin: 1.5rem 0 0;
+  padding-top: 1rem;
+  border-top: 1px solid #40916c;
+  text-align: center;
+}
