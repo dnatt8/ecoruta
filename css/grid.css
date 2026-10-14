@@ -62,3 +62,19 @@
 
 
 /* Actividad 5: adaptación a pantallas pequeñas */
+
+@media (max-width: 768px) {
+    .cabecera {
+        grid-template-columns: auto;
+        justify-content: center;
+        justify-items: center;
+        gap: .5rem;
+        padding: .5rem 1rem;
+    }
+    .contenedor {
+        grid-template-columns: 1fr;
+        grid-template-areas: "principal" "lateral";
+    }
+    .tarjetas, .pie-columnas { grid-template-columns: 1fr; gap: 1rem; }
+    .galeria { grid-template-columns: repeat(2, 1fr); }
+}
